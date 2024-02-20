@@ -33,11 +33,12 @@ public:
         {
                 return right;
         }
-        //if(left!=NULL && right!=NULL)
-        else 
+       
+        else if(left!=NULL && right!=NULL)
         {
              return root;
         }
+        return root;
         
     }
 };
