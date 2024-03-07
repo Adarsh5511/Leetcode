@@ -11,36 +11,49 @@
 class Solution {
 public:
     
-    int getlength(ListNode* head)
-    {
-        int count=0;
-        ListNode* temp=head;
-        while(temp!=NULL)
-        {
-            count++;
-            temp=temp->next;
+    // int getlength(ListNode* head)
+    // {
+    //     int count=0;
+    //     ListNode* temp=head;
+    //     while(temp!=NULL)
+    //     {
+    //         count++;
+    //         temp=temp->next;
             
 
-        }
-        return count;
+    //     }
+    //     return count;
 
-    }
-    
+    // }
+      // int len=getlength(head);
+        // int pos=len/2+1;
+        // ListNode* temp=head;
+        // while(pos!=1)
+        // {
+        //     pos--;
+        //     temp=temp->next;
+            
+            
+        // }
+        // return temp;
+
     
     ListNode* middleNode(ListNode* head) {
         
-        int len=getlength(head);
-        int pos=len/2+1;
-        ListNode* temp=head;
-        while(pos!=1)
-        {
-            pos--;
-            temp=temp->next;
-            
-            
-        }
+      ListNode* slow=head;
+      ListNode* fast=head;
+
+      while(fast!=NULL)
+      {
+          fast=fast->next;
+          if(fast!=NULL)
+          {
+              fast=fast->next;
+              slow=slow->next;
+          }
+      }
+      return slow;
         
-        return temp;
         
         
     }
