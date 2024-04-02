@@ -12,7 +12,7 @@ public:
             return dp[i];
         }
          
-      int include=nums[i]+solveusingmemo(dp,nums,i+2);
+       int include=nums[i]+solveusingmemo(dp,nums,i+2);
        int exclude=0+solveusingmemo(dp,nums,i+1);
        dp[i]=max(include,exclude);
         return dp[i]; 
