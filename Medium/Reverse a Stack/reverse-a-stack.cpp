@@ -10,40 +10,33 @@ using namespace std;
 
 class Solution{
 public:
-
-    void insert_at_bottm(stack<int>&st,int data)
-{
-    int size=st.size();
-    if(st.empty())
-    {
-        st.push(data);
-        return;
-    }
-    size--;
-    int temp=st.top();
-    st.pop();
-
-    insert_at_bottm(st,data);
-
-    st.push(temp);
-
-}
-
     void Reverse(stack<int> &St){
         
-        if(St.empty())
+        stack<int>ans;
+        while(!St.empty())
         {
-            return;
+            int a=St.top();
+            cout<<a<<" ";
+             ans.push(a);
+            St.pop();
+           
         }
-        int temp=St.top();
-        St.pop();
+       
+        // while(!ans.empty())
+        // {
+        //     int a=ans.top();
+        //     cout<<a;
+        //     ans.pop();
+        // }
         
-        Reverse(St);
         
-        insert_at_bottm(St,temp);
-        
-        
-        
+        // while(!ans.empty())
+        // {
+        //     int a=ans.top();
+        //      St.push(a);
+        //     ans.pop();
+           
+        // }
         
     }
 };
