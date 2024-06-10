@@ -10,33 +10,59 @@ using namespace std;
 
 class Solution{
 public:
+
+   void insert_at_bottom(stack<int> &St,int temp)
+   {
+       if(St.empty())
+       {
+           St.push(temp);
+           return;
+       }
+       
+       int element=St.top();
+       St.pop();
+       
+       insert_at_bottom(St,temp);
+       
+       St.push(element);
+       
+   }
+
+   
     void Reverse(stack<int> &St){
         
-        stack<int>ans;
-        while(!St.empty())
-        {
-            int a=St.top();
-            cout<<a<<" ";
-             ans.push(a);
-            St.pop();
+        // stack<int>ans;
+        
+        // while(!St.empty())
+        // {
+        //     int a=St.top();
+        //     // cout<<a<<" ";
+        //      ans.push(a);
+        //     St.pop();
            
-        }
+        // }
        
         // while(!ans.empty())
         // {
         //     int a=ans.top();
-        //     cout<<a;
+        //     St.push(a);
         //     ans.pop();
         // }
         
+        if(St.empty())
+        {
+            return;
+        }
         
-        // while(!ans.empty())
-        // {
-        //     int a=ans.top();
-        //      St.push(a);
-        //     ans.pop();
-           
-        // }
+        int temp=St.top();
+        St.pop();
+        
+        Reverse(St);
+        
+        insert_at_bottom(St,temp);
+        
+        
+        
         
     }
 };
