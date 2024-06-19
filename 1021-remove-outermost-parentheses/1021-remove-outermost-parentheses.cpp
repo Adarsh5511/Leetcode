@@ -3,33 +3,33 @@ public:
     string removeOuterParentheses(string s) {
         
         string ans;
-        stack<char>st;
+        // stack<char>st;
+        int count=0;
         
         for(int i=0;i<s.size();i++)
         {
-           if(st.empty())
+           if(s[i]=='(')
            {
-               if(s[i]=='(')
-               st.push(s[i]);
-           }
-         else if(!st.empty())
-          {
-              if(s[i]=='(')
-              {     
-              st.push(s[i]);
-              ans.push_back(s[i]);
-              }
-              else if(s[i]==')')
-              {
-                    st.pop();
-                  if(!st.empty())
-                  {
-                      ans.push_back(s[i]);
-                  }
-                    
-              }
-             
+               count+=1;
+               cout<<count<<" |";
+               
+               if(count!=1)
+               {
+                   ans.push_back(s[i]);
+               }
               
+           }
+         else if(s[i]==')')
+          {
+             
+             count-=1;
+             cout<<count<<" --";
+             if(count!=0)
+             {
+                 ans.push_back(s[i]);
+             }
+             
+             
           }
         }
         
