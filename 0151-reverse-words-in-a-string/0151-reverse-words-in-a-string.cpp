@@ -12,13 +12,14 @@ public:
                  {
                     i++;
                  }
+            if(i>=n) break;
                 j=i+1;
                  while(j<n && s[j]!=' ')
                  {
                     j++;
                  }
             string sub=s.substr(i,j-i);
-            if(result.empty())
+            if(result.length()==0)
             {
                 result=sub;
             }
@@ -30,12 +31,12 @@ public:
             
                 
         }
-        int k=0;
+//         int k=0;
         
-        while(result[k]==' ')
-            k++;
+//         while(result[k]==' ')
+//             k++;
         
-        result=result.substr(k,result.size()-k);
+//         result=result.substr(k,result.size()-k);
         return result;
    
     }
