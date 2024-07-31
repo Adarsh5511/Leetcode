@@ -4,19 +4,21 @@ public:
      {
          int n=nums.size();
         
-       set<int> ans;
-        for(int i=0;i<nums.size();i++)
+        int i=0;
+        for(int j=1;j<n;j++)
         {
-            ans.insert(nums[i]);
-        }
-        int index=0;
-        for(auto it:ans)
-        {
-            nums[index]=it;
-            index++;
-            
+            if(nums[i]!=nums[j])
+            {
+                   i++;
+                   nums[i]=nums[j];
+                  
+            }
         }
         
-        return ans.size();
+        return i+1;
+        
+       
+        
+        
     }
 };
