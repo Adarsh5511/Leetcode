@@ -6,36 +6,30 @@ public:
     {
         while(start<end)
         {
-            int temp=nums[start];
-            nums[start]=nums[end];
-            nums[end]=temp;
+            swap(nums[start],nums[end]);
             start++;
             end--;
-            
-            
         }
-        
     }
     
     
     void rotate(vector<int>& nums, int k) {
         
-      k=  k%nums.size();
+         int n=nums.size();
+         k=k%n;
         
-        reverse(nums,0,nums.size()-1);
         
-       // cout<<k;  
+        reverse(nums,0,n-1);
         reverse(nums,0,k-1);
-        // cout<<k;
-        
-          
-        reverse(nums,k,nums.size()-1);
-        
+        reverse(nums,k,n-1);
+            
+            
+        }
         
             
      
        
             
        
-    }
+    
 };
