@@ -17,9 +17,9 @@ public:
         vector<int>ans;
         long long result=1;
         
-        for(int i=1;i<=rowIndex+1;i++)
+        for(int i=0;i<=rowIndex;i++)
         {
-            ans.push_back(nCr(rowIndex,i-1));
+            ans.push_back(nCr(rowIndex,i));
         }
         return ans;
             
