@@ -1,66 +1,38 @@
 class Solution {
 public:
 
-     string createmapping(string m)
-     {
-         char start='a';
-         char mapping[128]={0};
-         for(int i=0;i<m.size();i++)
-         {
-             char ch=m[i];
-             if(mapping[ch]==0)
-             {
-                 mapping[ch]=start;
-                 start++;
-             }
-         }
-         for(int i=0;i<m.size();i++)
-         {
-             char ch=m[i];
-             m[i]=mapping[ch];
-         }
-        cout<<m;
-        return m;
-     }
     
-    
-    string mapping(string m)
+    string mapping(string s)
     {
         char start='a';
-        char mapping[128]={0};
-        for(int i=0;i<m.size();i++)
+        char map[200]={0};
+        for(int i=0;i<s.size();i++)
         {
-            char ch=m[i];
-            if(mapping[ch]==0)
+            char ch=s[i];
+            if(map[ch]==0)
             {
-                  mapping[ch]=start;
+                map[ch]=start;
                 start++;
             }
             
         }
-        for(int i=0;i<m.size();i++)
+        for(int i=0;i<s.size();i++)
         {
-              char ch=m[i];
-              m[i]=mapping[ch];
+            char ch=s[i];
+            char mapped=map[ch];
+            s[i]=mapped;
         }
-        cout<<m;
-        return m;
+        return s;
     }
-    
+   
     bool isIsomorphic(string s, string t) {
         
+        string a=mapping(s);
+        string b=mapping(t);
 
-    // string p=createmapping(s);
-    // string a=createmapping(t); 
-         string p=mapping(s);
-    string a=mapping(t); 
-       
-    if(p==a)
-    {
-        return true;
-    }
-    else
-     return false;
+      if(b==a)
+          return true;
+      return false;
 
     
 
