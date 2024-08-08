@@ -15,11 +15,11 @@ public:
         
         if(root==NULL){return 0;}
 
-        int left=maxDepth(root->left);
+        int left=1+maxDepth(root->left);
 
-        int right=maxDepth(root->right);
+        int right=1+maxDepth(root->right);
 
-        int heigth=max(left,right)+1;
+        int heigth=max(left,right);
 
         return heigth;
     }
