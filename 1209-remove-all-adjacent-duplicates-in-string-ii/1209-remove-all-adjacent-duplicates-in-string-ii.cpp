@@ -37,17 +37,18 @@ public:
              st.pop_back();
          }
      }
-        // for(auto it:st)
-        // {
-        //     ans.push_back(it.first);
-        // }
-         string result;
-        for(auto&p : st){
-            result.append(p.second, p.first);
+        
+        for(auto p : st){
+          int count=p.second;
+            while(count>0)
+            {
+                ans.push_back(p.first);
+                count--;
+            }
         }
-        return result;
+        // return result;
    
-   // return ans;
+   return ans;
     } 
  
     
