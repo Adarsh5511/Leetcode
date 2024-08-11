@@ -3,7 +3,7 @@ public:
     string intToRoman(int num) {
         
         string ans="";
-        vector<string>temp;
+        // vector<string>temp;
       vector<pair<int,string>>v{
             {1,"I"},
             {4,"IV"},
@@ -24,7 +24,7 @@ public:
         while(tem>0)
         {
             if(tem>=v[i].first && i>=0){
-                temp.push_back(v[i].second);
+                ans+=v[i].second;
                 tem=tem-v[i].first;
             }
             else if(tem<v[i].first && i>=0)
@@ -32,10 +32,10 @@ public:
                 i--;
             }
         }
-        for(auto it:temp)
-        {
-            ans+=it;
-        }
+        // for(auto it:temp)
+        // {
+        //     ans+=it;
+        // }
         return ans;
 
 
