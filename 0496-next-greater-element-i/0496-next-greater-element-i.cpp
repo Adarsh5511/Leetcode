@@ -18,106 +18,62 @@ public:
 //     }
     
     
+    
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
         
         stack<int>st;
-        vector<int>ans;
-        unordered_map<int,int>greater;
-        
-        
-        for(int i=nums2.size()-1;i>=0;i--)
-        {
-            
-            if(st.empty())
-            {
-                greater[nums2[i]]=-1;
-                st.push(nums2[i]);
-            }
-            
-            else if(st.top()>=nums2[i])
-            {
-                greater[nums2[i]]=st.top();
-                st.push(nums2[i]);
-                
-            }
-            else if(st.top()<nums2[i]){
-                
-                while(!st.empty() && st.top()<nums2[i]){
-                        st.pop();
-                }
-                if(st.empty())
-                greater[nums2[i]]=-1;
-                else{
-                      greater[nums2[i]]=st.top();
-                }
-                st.push(nums2[i]);
-                
-                
-                
-            }
-            
-            
-        }
+    int i = nums2.size()-1;
+        vector<int>ans(nums2.size(),-1);
+    while (i >= 0)
+    {
 
-       
-        for(auto num:nums1){
-            ans.push_back(greater[num]);
-            
+        int no = nums2[i];
+        if (st.empty())
+        {
+            ans[i] = -1;
+            st.push(no);
         }
+        else
+        {
+            if (no < st.top())
+            {
+                ans[i] = st.top();
+                st.push(no);
+            }
+            else if (no > st.top())
+            {
+                while (!st.empty() && st.top() <= no)
+                {
+                    st.pop();
+                }
+                if (!st.empty())
+                {
+                    ans[i] = st.top();
+                    
+                }
+                else
+                    ans[i] = -1;
+
+                st.push(no);    
+            }
+        }
+        i--;
+    }
         
-        return ans;
+        vector<int>ans2;
+    for(int i=0;i<nums1.size();i++){
+
+        int no=nums1[i];
+        for(int j=0;j<nums2.size();j++){
+            if(nums2[j]==no){
+               ans2.push_back(ans[j]);
+                break;
+            }
+        }
+    }
+        return ans2;
+        
     }
     
-//      vector<int>help=nums2;
-//         sort(help.begin(),help.end());
-//         int max=help.back();
-//         bool flag=false;
-       
-        
-        
-//         vector<int>ans;
-//         for(int i=0;i<nums1.size();i++)
-//         {
-          
-//             for(int j=0;j<nums2.size();j++)
-//             {
-//                 if(nums1[i]==nums2[j])
-//                 {
-                      
-//                     if(j==nums2.size()-1)
-//                     {
-//                         cout<<nums2[j];
-//                         ans.push_back(-1);
-//                     }
-//                     else if(nums2[j]==max)
-//                     {
-//                         cout<<nums2[j];
-//                         ans.push_back(-1);
-//                     }
-//                     else 
-//                     {
-//                         if(nums2[j+1]>nums2[j])
-//                         {cout<<nums2[j];
-//                          ans.push_back(nums2[j+1]);
-//                         }
-//                         else{
-                            
-                            
-//                             bool flag=insert(nums1,nums2,j,ans);
-                            
-//                             if(flag==false)
-//                             {
-//                                 ans.push_back(-1);
-//                             }
-                            
-                            
-                            
-//                         }
-                             
-//                     }
-//                 }
-               
-                
-//             }
-//         }
+
 };
