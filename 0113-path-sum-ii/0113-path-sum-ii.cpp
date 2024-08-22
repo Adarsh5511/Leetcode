@@ -42,31 +42,60 @@ public:
         
         
 //     }
-     void solve(TreeNode* root, int targetsum,vector<int>ans, vector<vector<int>>&summ) {
+//      void solve(TreeNode* root, int targetsum,vector<int>&ans, vector<vector<int>>&summ) {
+//     if (root == NULL) {
+//         return;
+//     }
+   
+//             ans.push_back(root->val);
+
+//     if (root->left == NULL && root->right == NULL) {
+        
+//         if(targetsum == root->val){
+          
+//             summ.push_back(ans);
+//         }
+  
+//            else {
+        
+//         solve(root->left, targetsum - root->val, ans, summ);
+//         solve(root->right, targetsum - root->val, ans, summ);
+    
+//            }
+    
+//     ans.pop_back();
+//         }
+//     }
+    
+// //     ans.push_back(root->val);
+// //      solve(root->left, targetsum - root->val,ans,summ);
+      
+// //     solve(root->right, targetsum - root->val,ans,summ);
+    void solve(TreeNode* root, int targetsum, vector<int>& ans, vector<vector<int>>& summ) {
     if (root == NULL) {
         return;
     }
-   
 
+    // Add the current node's value to the path
+    ans.push_back(root->val);
+
+    // If it's a leaf node and the target sum matches, add the path to the result
     if (root->left == NULL && root->right == NULL) {
-        
-        if(targetsum == root->val){
-             ans.push_back(root->val);
+        if (targetsum == root->val) {
             summ.push_back(ans);
         }
-        else{
-            // ans.pop_back();
-            return;
-        }
+    } else {
+        // Otherwise, continue to explore the left and right subtrees
+        solve(root->left, targetsum - root->val, ans, summ);
+        solve(root->right, targetsum - root->val, ans, summ);
     }
-    
-    ans.push_back(root->val);
-     solve(root->left, targetsum - root->val,ans,summ);
-    solve(root->right, targetsum - root->val,ans,summ);
-    
+
+    // Backtrack: remove the last element before returning to the previous node
+    ans.pop_back();
+}
     
 
-}
+
     
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
         vector<int>ans;
