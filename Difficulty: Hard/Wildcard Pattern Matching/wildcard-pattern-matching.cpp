@@ -8,45 +8,51 @@ class Solution {
   public:
     /*You are required to complete this method*/
     
-    bool match(int index1,int index2,string patt,string s2,vector<vector<int>>&dp){
-        
-        if(index1<0 && index2<0) return true;
-        
-        if(index1<0 && index2>=0) return false;
-        
-        if(index1>=0 && index2<0)
-        {
-            for(int i=0;i<index1;i++)
-            {
-                if(patt[i]!='*') return false;
+    bool allstars(string s2,int i){
+        for(int j=0;j<=i;j++){
+            if(s2[j]!='*'){
+                return false;
             }
-            
-            return true;
+        }
+        return true;
+    }
+    
+    bool match(string s1,string s2,int i,int j,vector<vector<int>>&dp){
+        
+        
+        if(i<0 && j<0) return true;
+        
+        if(i<0 && j>=0) return false;
+        
+          if(i>=0 && j<0)
+        {
+            return allstars(s1,i);
         }
         
-        if(dp[index1][index2]!=-1) return dp[index1][index2];
         
-        if(patt[index1]==s2[index2] || patt[index1]=='?'){
-           return dp[index1][index2]=match(index1-1,index2-1,patt,s2,dp);
+        if(dp[i][j]!=-1)return dp[i][j];
+      
+        if(s1[i]==s2[j]){
+          return dp[i][j]=match(s1,s2,i-1,j-1,dp);
         }
-        else if(patt[index1]=='*') 
-        return dp[index1][index2]= match(index1-1,index2,patt,s2,dp)|| match(index1,index2-1,patt,s2,dp);
-        
-        return false;
+        else if(s1[i]=='?'){
+            return dp[i][j]= match(s1,s2,i-1,j-1,dp);
+        }
+        else if(s1[i]=='*'){
+            return dp[i][j]=match(s1,s2,i-1,j,dp)||match(s1,s2,i,j-1,dp);
+        }
+        else{
+            return false;
+        }
         
     }
     
-    
     int wildCard(string pattern, string str) {
-        
+        // code here
         vector<vector<int>>dp(pattern.size(),vector<int>(str.size(),-1));
-        int index1=pattern.size()-1;
-        int index2=str.size()-1;
-        int i=0;
-        int j=0;
-        bool ans=match(index1,index2,pattern,str,dp);
-        return ans;
-        
+        int i=pattern.size()-1;
+        int j=str.size()-1;
+         return match(pattern,str,i,j,dp);
     }
 };
 
