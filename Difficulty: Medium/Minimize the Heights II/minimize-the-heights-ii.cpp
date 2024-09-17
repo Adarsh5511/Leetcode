@@ -19,12 +19,15 @@ class Solution {
         int largest=arr[arr.size()-1]-k;
         int mini=0;
         int maxi=0;
-        for(int i=0;i<arr.size()-1;i++){
+        for(int i=0;i<arr.size();i++)
+        {
             
             
             mini=min(smallest,arr[i+1]-k);
            
+        
             maxi=max(largest,arr[i]+k);
+            
             if(mini<0){
                 
                 continue;
