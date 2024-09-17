@@ -14,7 +14,7 @@ public:
             for(int i=l;i<=r;i++){
                 farthest=max(i+nums[i],farthest);
             }
-            l=r;
+            l=r+1;
             r=farthest;
             jumps=jumps+1;
         }
