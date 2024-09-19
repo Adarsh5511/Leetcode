@@ -57,7 +57,12 @@ public:
         if (curRow == 0 || curRow == numRows - 1) {
             goingDown = !goingDown;
         }
-        curRow += goingDown ? 1 : -1;
+        if (goingDown) {
+                curRow += 1;  // Move down
+            } else {
+                curRow -= 1;  // Move up
+            }
+
     }
 
     string result;
