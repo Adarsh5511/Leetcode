@@ -4,26 +4,21 @@ public:
         
         int maxi=0;
         bool flag=false;
-//         for(int i=0;i<nums.size();i++){
-//             for(int j=i+1;j<nums.size();j++)
-//             {
+        for(int i=0;i<nums.size();i++){
+            for(int j=i+1;j<nums.size();j++)
+            {
         
-//                 int diff=nums[j]-nums[i];
-//                   maxi=max(diff,maxi);
-//                 flag=true;
-//             }
-//         }
-//         if(flag){return maxi;}
-        for (int i = 0; i < nums.size(); i++) {
-        for (int j = i + 1; j < nums.size(); j++) {
-            int diff = nums[j] - nums[i];
-            if (maxi < diff) {
-                maxi = diff;
-                flag = true;  // At least one valid difference is found
+                int diff=nums[j]-nums[i];
+                 if(maxi<diff){
+                     maxi=diff;
+                      flag=true;
+                 }
+                
+               
             }
         }
-    }
         if(flag){return maxi;}
+        
         
         return -1;
         
