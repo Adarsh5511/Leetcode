@@ -1,61 +1,76 @@
-#include<iostream>
-#include<unordered_map>
-#include<vector>
-#include <algorithm>
+//{ Driver Code Starts
+#include <bits/stdc++.h>
 using namespace std;
 
 
-bool comp(pair<int,int>&a,pair<int,int>&b){
+// } Driver Code Ends
+class Solution {
+  public:
+    // Complete this function
+    // Function to sort the array according to frequency of elements.
+    vector<int> sortByFreq(vector<int>& arr) {
+        // Your code here
+        vector<pair<int,int>>temp;
+        unordered_map<int,int>mp;
+        for(auto i:arr){
+            mp[i]++;
+        }
+        
+        for(auto i:mp){
+            temp.push_back(i);
+        }
+        
+        sort(temp.begin(),temp.end(),[](const pair<int,int>&a,const pair<int,int>&b){
+            
+            if(a.second==b.second){
+                return a.first<b.first;
+            }
+            return a.second>b.second;
+        });
+       
+   
     
-    if(a.second==b.second){
-        return a.first<b.first;
+    vector<int>ans;
+    for(auto i:temp){
+        
+       for(int j=0;j<i.second;j++){
+        ans.push_back(i.first);
+       }
     }
     
-    return a.second>b.second;
-}
-
-int main()
- {
-	
-    int t;
-    cin>>t;
-    while (t--) {
-        int n;
-        cin >> n;  // Number of elements in the array
-        vector<int> a(n);
+    return ans;
         
-        // Reading input array
-        for (int i = 0; i < n; i++) {
-            cin >> a[i];
-        }
+        
+    }
+};
 
-        // Frequency map
-        unordered_map<int, int> m;
-        for (int i = 0; i < n; i++) {
-            m[a[i]]++;  // Count the frequency of each element
-        }
+//{ Driver Code Starts.
 
-        // Create a vector of pairs (element, frequency)
-        vector<pair<int, int>> v;
-        for (auto i : m) {
-            v.push_back({i.first, i.second});
-        }
+int main() {
 
-        // Sort the vector by frequency and element value
-        sort(v.begin(), v.end(), comp);
+    int t;
+    cin >> t;
+    cin.ignore();
+    while (t--) {
 
-        // Print the elements according to their frequency
-        for (auto i : v) {
-            int x = i.first;  // Element
-            int f = i.second;  // Frequency
-            while (f--) {  // Print the element `f` times
-                cout << x << " ";
-            }
+        string input;
+        int num;
+        vector<int> arr;
+
+        getline(cin, input);
+        stringstream s2(input);
+        while (s2 >> num) {
+            arr.push_back(num);
         }
-        cout << endl;  // Newline after each test case
+        Solution obj;
+        vector<int> v;
+        v = obj.sortByFreq(arr);
+        for (int i : v)
+            cout << i << " ";
+        cout << endl;
     }
 
     return 0;
-	
-
 }
+
+// } Driver Code Ends
