@@ -49,7 +49,7 @@ public:
             }
             else if(color[ngbr]!=-1 && color[ngbr]==color[node])
             {
-                return ans=false;
+                return false;
             }
         }
       
