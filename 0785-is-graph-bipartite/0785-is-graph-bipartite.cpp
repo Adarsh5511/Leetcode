@@ -42,7 +42,7 @@ public:
             {
                  color[ngbr]=!color[node];
                 bool ans=dfs(ngbr,color,graph);
-                if(!ans)
+                if(ans==false)
                 {
                     return false;
                 }
