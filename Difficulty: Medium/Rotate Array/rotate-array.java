@@ -50,7 +50,7 @@ class Solution {
    {
        int i=start;
        int j=end;
-       while(i<=j)
+       while(i<j)
        {
            int temp=arr[i];
            arr[i]=arr[j];
@@ -63,18 +63,12 @@ class Solution {
     static void rotateArr(int arr[], int d) {
         // add your code here
       
-        int n=arr.length;
-if (arr == null || arr.length <= 1) return;
-
-        d=d%n;
-            if (d == 0) {
-            return; // No rotation needed
-        }
+       int n=arr.length;
+        d=d%arr.length;
         reverse(arr,0,d-1);
-        
         reverse(arr,d,n-1);
-        
         reverse(arr,0,n-1);
+        
         
     }
 }
