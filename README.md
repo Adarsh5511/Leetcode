@@ -26,9 +26,14 @@
 | ------- |
 | [0917-boats-to-save-people](https://github.com/Adarsh5511/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Adarsh5511/Leetcode/tree/master/0985-bag-of-tokens) |
+| [1033-broken-calculator](https://github.com/Adarsh5511/Leetcode/tree/master/1033-broken-calculator) |
 ## Sorting
 |  |
 | ------- |
 | [0917-boats-to-save-people](https://github.com/Adarsh5511/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Adarsh5511/Leetcode/tree/master/0985-bag-of-tokens) |
+## Math
+|  |
+| ------- |
+| [1033-broken-calculator](https://github.com/Adarsh5511/Leetcode/tree/master/1033-broken-calculator) |
 <!---LeetCode Topics End-->
