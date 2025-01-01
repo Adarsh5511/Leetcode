@@ -18,6 +18,7 @@
 | ------- |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Adarsh5511/Leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Adarsh5511/Leetcode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
+| [2487-optimal-partition-of-string](https://github.com/Adarsh5511/Leetcode/tree/master/2487-optimal-partition-of-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -40,6 +41,7 @@
 | [1961-maximum-ice-cream-bars](https://github.com/Adarsh5511/Leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Adarsh5511/Leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Adarsh5511/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
+| [2487-optimal-partition-of-string](https://github.com/Adarsh5511/Leetcode/tree/master/2487-optimal-partition-of-string) |
 ## Sorting
 |  |
 | ------- |
@@ -56,6 +58,7 @@
 |  |
 | ------- |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Adarsh5511/Leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [2487-optimal-partition-of-string](https://github.com/Adarsh5511/Leetcode/tree/master/2487-optimal-partition-of-string) |
 ## Counting
 |  |
 | ------- |
