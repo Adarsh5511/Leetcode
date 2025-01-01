@@ -16,6 +16,7 @@
 ## String
 |  |
 | ------- |
+| [0649-dota2-senate](https://github.com/Adarsh5511/Leetcode/tree/master/0649-dota2-senate) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Adarsh5511/Leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Adarsh5511/Leetcode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [2487-optimal-partition-of-string](https://github.com/Adarsh5511/Leetcode/tree/master/2487-optimal-partition-of-string) |
@@ -33,6 +34,7 @@
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/Adarsh5511/Leetcode/tree/master/0134-gas-station) |
+| [0649-dota2-senate](https://github.com/Adarsh5511/Leetcode/tree/master/0649-dota2-senate) |
 | [0917-boats-to-save-people](https://github.com/Adarsh5511/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Adarsh5511/Leetcode/tree/master/0985-bag-of-tokens) |
 | [1033-broken-calculator](https://github.com/Adarsh5511/Leetcode/tree/master/1033-broken-calculator) |
@@ -67,4 +69,8 @@
 |  |
 | ------- |
 | [1961-maximum-ice-cream-bars](https://github.com/Adarsh5511/Leetcode/tree/master/1961-maximum-ice-cream-bars) |
+## Queue
+|  |
+| ------- |
+| [0649-dota2-senate](https://github.com/Adarsh5511/Leetcode/tree/master/0649-dota2-senate) |
 <!---LeetCode Topics End-->
