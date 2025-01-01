@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/Adarsh5511/Leetcode/tree/master/0134-gas-station) |
 | [0917-boats-to-save-people](https://github.com/Adarsh5511/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Adarsh5511/Leetcode/tree/master/0985-bag-of-tokens) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Adarsh5511/Leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -30,6 +31,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/Adarsh5511/Leetcode/tree/master/0134-gas-station) |
 | [0917-boats-to-save-people](https://github.com/Adarsh5511/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Adarsh5511/Leetcode/tree/master/0985-bag-of-tokens) |
 | [1033-broken-calculator](https://github.com/Adarsh5511/Leetcode/tree/master/1033-broken-calculator) |
