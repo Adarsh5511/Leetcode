@@ -125,39 +125,39 @@ class Solution {
 public:
     string predictPartyVictory(string senate) {
         int n = senate.size();
-        int rCount = 0, dCount = 0; // Remaining Radiant and Dire senators
-        int rBan = 0, dBan = 0;    // Bans queued for Radiant and Dire
+        int rCount = 0, dCount = 0;
+        int rBan = 0, dBan = 0;  
 
         while (true) {
             for (int i = 0; i < n; ++i) {
                 if (senate[i] == 'R') {
                     if (rBan > 0) {
-                        // Ban this Radiant senator
+                      
                         senate[i] = 'X';
                         --rBan;
                     } else {
-                        // This Radiant senator survives and bans a Dire senator
+                       
                         ++dBan;
                         ++rCount;
                     }
                 } else if (senate[i] == 'D') {
                     if (dBan > 0) {
-                        // Ban this Dire senator
+                    
                         senate[i] = 'X';
                         --dBan;
                     } else {
-                        // This Dire senator survives and bans a Radiant senator
+                       
                         ++rBan;
                         ++dCount;
                     }
                 }
             }
 
-            // Check if one party has been completely banned
+          
             if (rCount == 0) return "Dire";
             if (dCount == 0) return "Radiant";
 
-            // Reset counts for the next round
+         
             rCount = 0;
             dCount = 0;
         }
