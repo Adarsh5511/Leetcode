@@ -13,6 +13,7 @@
 | [1961-maximum-ice-cream-bars](https://github.com/Adarsh5511/Leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Adarsh5511/Leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Adarsh5511/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
+| [2450-minimum-replacements-to-sort-the-array](https://github.com/Adarsh5511/Leetcode/tree/master/2450-minimum-replacements-to-sort-the-array) |
 ## String
 |  |
 | ------- |
@@ -45,6 +46,7 @@
 | [1961-maximum-ice-cream-bars](https://github.com/Adarsh5511/Leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Adarsh5511/Leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Adarsh5511/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
+| [2450-minimum-replacements-to-sort-the-array](https://github.com/Adarsh5511/Leetcode/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2487-optimal-partition-of-string](https://github.com/Adarsh5511/Leetcode/tree/master/2487-optimal-partition-of-string) |
 ## Sorting
 |  |
@@ -59,6 +61,7 @@
 | ------- |
 | [1033-broken-calculator](https://github.com/Adarsh5511/Leetcode/tree/master/1033-broken-calculator) |
 | [1448-maximum-69-number](https://github.com/Adarsh5511/Leetcode/tree/master/1448-maximum-69-number) |
+| [2450-minimum-replacements-to-sort-the-array](https://github.com/Adarsh5511/Leetcode/tree/master/2450-minimum-replacements-to-sort-the-array) |
 ## Hash Table
 |  |
 | ------- |
