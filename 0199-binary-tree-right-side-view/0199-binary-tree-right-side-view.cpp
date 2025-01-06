@@ -12,35 +12,40 @@
 class Solution {
 public:
     
-    void rightv(TreeNode* root,vector<int>&ans,int &l)
+    void rightv(TreeNode* root,int &l,map<int,int>&mp)
     {
-        if(root==NULL)
-        {
-             return ;
-        }
+       if(root==NULL)
+       {
+        return;
+       }
+
+       if(mp.find(l)==mp.end())
+       {
+         mp[l]=root->val;
+       }
+        l=l+1;
+        if(root->right!=NULL) rightv(root->right,l,mp);
         
-        if(ans.size()==l)
-        {
-              ans.push_back(root->val);
-        }
-        int newlevel=l+1;
-        rightv(root->right,ans,newlevel);
-        
-        rightv(root->left,ans,newlevel);
-        
+        if(root->left!=NULL) rightv(root->left,l,mp);
+        l=l-1;
        
 
     }
     
     vector<int> rightSideView(TreeNode* root) {
+        
+        
+        map<int,int>mp;
         vector<int>ans;
         int l=0;
-         rightv(root,ans,l);
-     
+        rightv(root,l,mp);
+
+        for(auto i:mp)
+        {
+            ans.push_back(i.second);
+        }
+
         return ans;
-        
-        
-        
         
         
     }
