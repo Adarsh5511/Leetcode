@@ -54,6 +54,7 @@
 | ------- |
 | [0917-boats-to-save-people](https://github.com/Adarsh5511/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Adarsh5511/Leetcode/tree/master/0985-bag-of-tokens) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Adarsh5511/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1961-maximum-ice-cream-bars](https://github.com/Adarsh5511/Leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Adarsh5511/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
@@ -66,6 +67,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Adarsh5511/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Adarsh5511/Leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2487-optimal-partition-of-string](https://github.com/Adarsh5511/Leetcode/tree/master/2487-optimal-partition-of-string) |
@@ -91,6 +93,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adarsh5511/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -98,6 +101,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -108,6 +112,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adarsh5511/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -116,4 +121,5 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adarsh5511/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
