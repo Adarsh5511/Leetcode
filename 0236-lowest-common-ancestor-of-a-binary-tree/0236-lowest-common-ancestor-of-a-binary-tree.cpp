@@ -24,20 +24,20 @@ public:
 
       TreeNode* rightans=lcs(root->right,p,q);
 
-      if(leftans!=NULL && rightans!=NULL )
+      if(leftans==NULL)
       {
-                 return root;
+                 return rightans;
       }
-      else if(leftans!=NULL && rightans==NULL)
+      else if(rightans==NULL)
       {
         return leftans;
       }
-      else if(rightans!=NULL && leftans==NULL)
+      else
       {
-        return rightans;
+        return root;
       }
 
-      return NULL;
+    
 
 
    }
