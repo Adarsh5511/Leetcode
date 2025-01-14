@@ -14,6 +14,7 @@
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Adarsh5511/Leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Adarsh5511/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Adarsh5511/Leetcode/tree/master/2450-minimum-replacements-to-sort-the-array) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Adarsh5511/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## String
 |  |
 | ------- |
@@ -72,6 +73,7 @@
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Adarsh5511/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Adarsh5511/Leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2487-optimal-partition-of-string](https://github.com/Adarsh5511/Leetcode/tree/master/2487-optimal-partition-of-string) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Adarsh5511/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Counting
 |  |
 | ------- |
@@ -133,4 +135,8 @@
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/Adarsh5511/Leetcode/tree/master/0257-binary-tree-paths) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Adarsh5511/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 <!---LeetCode Topics End-->
