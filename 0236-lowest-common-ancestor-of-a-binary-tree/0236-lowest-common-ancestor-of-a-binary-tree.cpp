@@ -13,19 +13,12 @@ public:
 
    TreeNode* lcs(TreeNode* root,TreeNode* p,TreeNode* q)
    {
-      if(root==NULL)
+      if(root==NULL || root==p || root==q)
       {
-        return NULL;
+        return root;
       }
 
-      if(root==p)
-      {
-        return root;
-      }
-      if(root==q)
-      {
-        return root;
-      }
+     
 
       TreeNode* leftans=lcs(root->left,p,q);
 
