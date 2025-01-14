@@ -93,6 +93,7 @@
 | [0110-balanced-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adarsh5511/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Adarsh5511/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -113,6 +114,7 @@
 | [0110-balanced-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adarsh5511/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Adarsh5511/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -123,6 +125,7 @@
 | [0110-balanced-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adarsh5511/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Adarsh5511/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
