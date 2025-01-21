@@ -35,7 +35,7 @@ public:
         queue<TreeNode*>q;
         q.push(target);
         int dist=0;
-        set<TreeNode*>vis;
+        unordered_set<TreeNode*>vis;
         // vis.insert(target);
         while(!q.empty() && dist<k)
         {
