@@ -36,7 +36,7 @@ public:
         q.push(target);
         int dist=0;
         unordered_set<TreeNode*>vis;
-        // vis.insert(target);
+        vis.insert(target);
         while(!q.empty() && dist<k)
         {
               
@@ -46,22 +46,22 @@ public:
               for(int i=0;i<size;i++)
               {
                 TreeNode* node=q.front();
-                vis.insert(node);
+                // vis.insert(node);
                 q.pop();
                 if(node->left!=NULL && (vis.find(node->left) == vis.end()))
                 {
                     q.push(node->left);
-                    //   vis.insert(node->left);
+                      vis.insert(node->left);
                 }
                 if(node->right!=NULL && (vis.find(node->right) == vis.end()))
                 {
                     q.push(node->right);
-                    //   vis.insert(node->right);
+                      vis.insert(node->right);
                 }
                 if (mp.find(node) != mp.end() && vis.find(mp[node]) == vis.end()) {
                 //   cout<<mp[node]->val;
         q.push(mp[node]);
-        // vis.insert(mp[node]);
+        vis.insert(mp[node]);
     }
 
                  
