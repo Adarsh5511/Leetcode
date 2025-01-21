@@ -9,44 +9,87 @@
  */
 class Solution {
 public:
-    void findNodesAtDistanceK(TreeNode* root, int k, vector<int>& result) {
-        if (!root) return;
-        if (k == 0) {
-            result.push_back(root->val);
-            return;
+     
+
+    void makeparentpointers(TreeNode* root,unordered_map<TreeNode* ,TreeNode*>&mp)
+    {
+        queue<TreeNode*>q;
+        q.push(root);
+        while(!q.empty())
+        {
+            TreeNode* node=q.front();
+            q.pop();
+            if(node->left){
+                q.push(node->left);
+                mp[node->left]=node;
+            }
+            if(node->right){
+                q.push(node->right);
+                mp[node->right]=node;
+            }
         }
-        findNodesAtDistanceK(root->left, k - 1, result);
-        findNodesAtDistanceK(root->right, k - 1, result);
+
+    } 
+    void travelalldirections(TreeNode*target,int k,vector<int>&ans,unordered_map<TreeNode*,TreeNode*>&mp)
+    {
+        queue<TreeNode*>q;
+        q.push(target);
+        int dist=0;
+        set<TreeNode*>vis;
+        vis.insert(target);
+        while(!q.empty() && dist<k)
+        {
+              
+              int size=q.size();
+              
+
+              for(int i=0;i<size;i++)
+              {
+                TreeNode* node=q.front();
+                // vis.insert(node);
+                q.pop();
+                if(node->left!=NULL && (vis.find(node->left) == vis.end()))
+                {
+                    q.push(node->left);
+                      vis.insert(node->left);
+                }
+                if(node->right!=NULL && (vis.find(node->right) == vis.end()))
+                {
+                    q.push(node->right);
+                      vis.insert(node->right);
+                }
+                if (mp.find(node) != mp.end() && vis.find(mp[node]) == vis.end()) {
+                  cout<<mp[node]->val;
+        q.push(mp[node]);
+        vis.insert(mp[node]);
     }
 
-    int dfs(TreeNode* root, TreeNode* target, int k, vector<int>& result) {
-        if (!root) return -1;
+                 
 
-        if (root == target) {
-            findNodesAtDistanceK(root, k, result); // Collect nodes at distance k from target.
-            return 0;
+              }
+              
+              dist=dist+1;
+             
         }
 
-        int leftDistance = dfs(root->left, target, k, result);
-        if (leftDistance != -1) {
-            if (leftDistance + 1 == k) result.push_back(root->val);
-            else findNodesAtDistanceK(root->right, k - leftDistance - 2, result);
-            return leftDistance + 1;
+        while(!q.empty())
+        {
+            TreeNode* node=q.front();
+            q.pop();
+            ans.push_back(node->val);
         }
-
-        int rightDistance = dfs(root->right, target, k, result);
-        if (rightDistance != -1) {
-            if (rightDistance + 1 == k) result.push_back(root->val);
-            else findNodesAtDistanceK(root->left, k - rightDistance - 2, result);
-            return rightDistance + 1;
-        }
-
-        return -1; // Target not found in either subtree.
     }
 
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        vector<int> result;
-        dfs(root, target, k, result);
-        return result;
+        
+        unordered_map<TreeNode* ,TreeNode*>mp;
+        makeparentpointers(root,mp);
+        for(auto i:mp)
+        {
+            cout<<i.first->val<<i.second->val;
+        }
+        vector<int>ans;
+        travelalldirections(target,k,ans,mp);
+        return ans;
     }
 };
