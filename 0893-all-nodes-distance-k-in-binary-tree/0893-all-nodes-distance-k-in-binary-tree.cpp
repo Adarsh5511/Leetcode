@@ -59,7 +59,7 @@ public:
                       vis.insert(node->right);
                 }
                 if (mp.find(node) != mp.end() && vis.find(mp[node]) == vis.end()) {
-                  cout<<mp[node]->val;
+                //   cout<<mp[node]->val;
         q.push(mp[node]);
         vis.insert(mp[node]);
     }
@@ -84,10 +84,7 @@ public:
         
         unordered_map<TreeNode* ,TreeNode*>mp;
         makeparentpointers(root,mp);
-        for(auto i:mp)
-        {
-            cout<<i.first->val<<i.second->val;
-        }
+       
         vector<int>ans;
         travelalldirections(target,k,ans,mp);
         return ans;
