@@ -39,7 +39,7 @@ public:
         if(root->right)   countn(root->right,count);
        
 
-        cout<<count;
+        // cout<<count;
         return count;
 
     }
