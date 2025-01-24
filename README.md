@@ -111,6 +111,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0820-find-eventual-safe-states](https://github.com/Adarsh5511/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
@@ -140,6 +141,7 @@
 | [0257-binary-tree-paths](https://github.com/Adarsh5511/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0820-find-eventual-safe-states](https://github.com/Adarsh5511/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Backtracking
@@ -155,4 +157,12 @@
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Adarsh5511/Leetcode/tree/master/0222-count-complete-tree-nodes) |
+## Graph
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/Adarsh5511/Leetcode/tree/master/0820-find-eventual-safe-states) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/Adarsh5511/Leetcode/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
