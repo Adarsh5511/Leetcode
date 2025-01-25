@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0134-gas-station](https://github.com/Adarsh5511/Leetcode/tree/master/0134-gas-station) |
 | [0917-boats-to-save-people](https://github.com/Adarsh5511/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Adarsh5511/Leetcode/tree/master/0985-bag-of-tokens) |
@@ -69,6 +70,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Adarsh5511/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
@@ -93,6 +95,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adarsh5511/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
@@ -120,6 +123,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Adarsh5511/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adarsh5511/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Adarsh5511/Leetcode/tree/master/0199-binary-tree-right-side-view) |
@@ -165,4 +169,8 @@
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/Adarsh5511/Leetcode/tree/master/0820-find-eventual-safe-states) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 <!---LeetCode Topics End-->
