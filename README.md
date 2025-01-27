@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/Adarsh5511/Leetcode/tree/master/0027-remove-element) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Adarsh5511/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0134-gas-station](https://github.com/Adarsh5511/Leetcode/tree/master/0134-gas-station) |
 | [0917-boats-to-save-people](https://github.com/Adarsh5511/Leetcode/tree/master/0917-boats-to-save-people) |
@@ -34,6 +35,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/Adarsh5511/Leetcode/tree/master/0027-remove-element) |
 | [0917-boats-to-save-people](https://github.com/Adarsh5511/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Adarsh5511/Leetcode/tree/master/0985-bag-of-tokens) |
 ## Greedy
