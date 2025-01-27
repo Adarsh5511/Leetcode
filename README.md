@@ -20,6 +20,7 @@
 ## String
 |  |
 | ------- |
+| [0058-length-of-last-word](https://github.com/Adarsh5511/Leetcode/tree/master/0058-length-of-last-word) |
 | [0257-binary-tree-paths](https://github.com/Adarsh5511/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0649-dota2-senate](https://github.com/Adarsh5511/Leetcode/tree/master/0649-dota2-senate) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Adarsh5511/Leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
